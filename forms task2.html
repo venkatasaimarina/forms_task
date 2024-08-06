@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <title>task2</title>
+
+</head>
+<body>
+    <h1 style="text-align: center">Event Registration Form</h1>
+    <p style="text-align: center;" > Please fill out the form below to register for the event</p>
+    <form 
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="fname" required placeholder="First name">
+        <input type="text" id="name" name="lname" required placeholder="Last name"><br>
+        <label for="mail">Email Address</label><br>
+        <input type="email" id="mail" name="gmail" required placeholder="john.doe@example.com"><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br>
+        <label for="country">Country</label><br>
+        <select>
+            <option value="select">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <label for="db">Date of Birth</label>
+        <input type="date" id="id" name="dob" required placeholder="MM/DD/YYYY"><br>
+
+        <label for="size">T-Shirt Size </label><br>
+
+    
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="t">
+            <label for="med">Medium</label>
+            <input type="radio" id="med" name="t"><br>            
+            <label for="l">Large</label>
+            <input type="radio" id="l" name="t">
+            <label for="el">Extra Large</label>
+            <input type="radio" id="el" name="t">
+        <h2>Emergency Contact Informtion</h2>
+        <label for="con" >Emergency Contact Name</label><br>
+        <input type="text" id="con" name="contactname" placeholder="Steve Smith"><br>
+        <label for="nu">Emergency Contact Phone Number</label><br>   
+        <input type="tel" id="nu" name="num" placeholder="9999999999"><br>
+        
+        <input type="checkbox" value="Submit">
+        <label for="checkbox">I agree to the terms and conditions to this event</label><br>
+        <center><input type="submit" value="Register Now" style="background-color: blue; color: aliceblue;"></center>
+
+
+
+    </form>
+</body>
+</html>
